@@ -5,7 +5,7 @@ Homebrew formulae for the [Ika Network](https://ika.xyz) CLI.
 ## Installation
 
 ```bash
-brew install dwallet-labs/ika/ika
+brew install ika-xyz/tap/ika
 ```
 
 ## Updating
