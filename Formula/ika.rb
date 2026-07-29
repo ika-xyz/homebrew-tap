@@ -1,30 +1,30 @@
 class Ika < Formula
   desc "Ika Network CLI - Decentralized MPC signing network on Sui"
   homepage "https://ika.xyz"
-  version "1.2.6"
+  version "1.2.7"
   license "BSD-3-Clause-Clear"
 
   on_macos do
     on_arm do
       url "https://github.com/dwallet-labs/ika/releases/download/release/mainnet-v#{version}/ika-mainnet-v#{version}-macos-arm64.tar.gz"
-      sha256 "c5f93f2d7d06240b40fa9eb6d823864505965578863da90370a929fa20de19c7" # macos-arm64
+      sha256 "bb69a4577a74d665d70c396d5ba10a051618b5c614757280dc9ec10e2742b22f" # macos-arm64
     end
 
     on_intel do
       url "https://github.com/dwallet-labs/ika/releases/download/release/mainnet-v#{version}/ika-mainnet-v#{version}-macos-x64.tar.gz"
-      sha256 "391ac85600c903079db0b116c4fd8e7f5a6e572776905b1ab328e374b4a2c105" # macos-x64
+      sha256 "bd663485e0f4c1bce07b5244600746223c889088b52500332412f1709ce5ddb8" # macos-x64
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/dwallet-labs/ika/releases/download/release/mainnet-v#{version}/ika-mainnet-v#{version}-linux-arm64.tar.gz"
-      sha256 "f622d6c777d598bff3539d7e8c53d34ebe356c7a970f0026391c08f87a9dc7ba" # linux-arm64
+      sha256 "76a3a07fb46e71344c10374222c4e58599e9a81c4b58e385bb549c118c0b200a" # linux-arm64
     end
 
     on_intel do
       url "https://github.com/dwallet-labs/ika/releases/download/release/mainnet-v#{version}/ika-mainnet-v#{version}-linux-x64.tar.gz"
-      sha256 "be076ed22bd763621ecc3d7a6819529e8d7b41bb2795b629f1ce286d7b386331" # linux-x64
+      sha256 "d6a38b4bd0c03c8d625c07add9f1e349af67c22c072d43c355562a06eb8f2bfc" # linux-x64
     end
   end
 
